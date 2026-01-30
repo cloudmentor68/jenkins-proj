@@ -5,7 +5,7 @@ pipeline {
         stage('code clone') {
             steps {
                 echo "code cloning hogya repo se"
-                git url: "https://github.com/iam-mohanty/docker-jenkins-declarative-nodeapp.git"
+                git url: "https://github.com/cloudmentor68/jenkins-proj.git"
             }
         }
         stage('code build') {
@@ -27,3 +27,4 @@ pipeline {
         }
     }
 }
+
