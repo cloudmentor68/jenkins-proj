@@ -1,6 +1,10 @@
 This repo for both freestyle and declarative use
 
+1. sudo usermod -aG docker $USER
+2. sudo reboot
 
+3. sudo usermod -aG docker jenkins
+4. sudo reboot
 
 
 **Note**
@@ -22,3 +26,4 @@ again final build now
 
 
 -------------------------------------------------------------------------------------
+
